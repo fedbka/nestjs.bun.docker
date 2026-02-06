@@ -1,0 +1,15 @@
+# Making LF (Unix) standard for all text files
+* text=auto eol=lf
+
+# correct diffs
+*.ts text diff=typescript
+*.js text
+*.json text
+*.md text
+
+# Bun lockfile
+bun.lockb binary
+
+*.png binary
+*.jpg binary
+*.svg text
