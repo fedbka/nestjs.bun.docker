@@ -28,5 +28,8 @@
 
   "javascript.validate.enable": false,
   "typescript.validate.enable": false,
-  "prettier.enable": false
+  "prettier.enable": false,
+  "[dockercompose]": {
+    "editor.defaultFormatter": "docker.docker"
+  }
 }
