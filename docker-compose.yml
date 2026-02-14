@@ -2,7 +2,7 @@ services:
   nest-app:
     build:
       context: .
-      dockerfile: Dockerfile.dev
+      dockerfile: dockerfile.dev
     container_name: nest_bun_dev
     user: "1001:1001"
     ports:
